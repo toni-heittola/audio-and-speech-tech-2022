@@ -7,6 +7,14 @@ Author: **Toni Heittola**, *Tampere University*
 
 This repository contains code examples for the tutorial presented in AI Hub Audio and Speech Technology Workshop, 2022. This workshop was a joint effort by [AI Hub Tampere](https://research.tuni.fi/aihubtampere/) and [MARVEL](https://www.marvel-project.eu) projects. 
 
+## Slides
+
+1. [Sound classification example](https://rawcdn.githack.com/toni-heittola/audio-and-speech-tech-2022/94e4f1b2d2e2dcb36cf8333ba24f8c345712e8ff/examples/1_sound_classification_example.slides.html)
+2. [Environmental audio AI examples](https://rawcdn.githack.com/toni-heittola/audio-and-speech-tech-2022/94e4f1b2d2e2dcb36cf8333ba24f8c345712e8ff/examples/2_environmental_audio_ai_examples.slides.html)
+3. [Speech AI examples](https://rawcdn.githack.com/toni-heittola/audio-and-speech-tech-2022/94e4f1b2d2e2dcb36cf8333ba24f8c345712e8ff/examples/3_speech_ai_examples.slides.html)
+
+To create these slide sets run `source create_presentations.sh`
+
 ## Code examples
 
 1. **Sound classification** using acoustic scene classification as example application, system is based convolutional neural networks (CNN) architecture (`examples/1_sound_classification_example.ipynb`)
@@ -19,7 +27,7 @@ Example systems are implemented in Python (version 3.x) and published as Jupyter
 - For interactive code execution: 
 
     1. Clone or download the repository
-    2. Create conda environment with `conda_create_environment.sh`
+    2. Create conda environment with `source create_conda_environment.sh`
     5. Start notebook from command prompt with command `jupyter notebook` (inside the `code_examples` directory), this opens browser interface.
     6. Open notebook file (*.ipynb) from the list
     7. Notebook is constructed from code and text cells, start from the top and execute cell by cell starting from first cell with `shift+enter`
